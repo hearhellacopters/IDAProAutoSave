@@ -135,7 +135,7 @@ def auto_save_handler():
 def save_database():
     global auto_save_enabled
     # disable this print just for testing
-    print("Auto-save ranning...")
+    print("Auto-save running...")
     if not auto_save_enabled:
         return
 
